@@ -237,7 +237,10 @@ class _SignUpWidgetState extends State<SignUpWidget> {
               ),
               Flexible(
                 flex: 2,
-                child: Text(socialName),
+                child: Text(
+                    socialName,
+                    style: TextStyle(color: Colors.black),
+                ),
               ),
             ],
           ),
